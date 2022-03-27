@@ -3,6 +3,6 @@ let greeting = parameterVariable => {
     console.log(parameterVariable);
 }
 
-let parameterVariable = 'Welcome to 10 Days of JavaScript!';
+let input = 'Welcome to 10 Days of JavaScript!';
 
-greeting(parameterVariable);
+greeting(input);

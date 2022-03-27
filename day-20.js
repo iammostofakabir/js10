@@ -21,6 +21,6 @@ let getGrade = score => {
     return grade;
 }
 
-let score = 11;
+let input = 11;
 
-console.log(getGrade(score));
+console.log(getGrade(input));

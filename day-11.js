@@ -7,6 +7,6 @@ let factorial = n => {
         return f;
     }
     
-let ans = 4;
+let input = 4;
     
-console.log(factorial(ans));
+console.log(factorial(input));
