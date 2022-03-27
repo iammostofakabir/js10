@@ -1,10 +1,28 @@
-function getArea(length, width) {
+// function getArea(length, width) {
+//     let area;
+//     area = length * width;
+//     return area;
+// }
+
+// function getPerimeter(length, width) {
+//     let perimeter;
+//     perimeter = 2 * (length + width);
+//     return perimeter;
+// }
+
+// let length = 3;
+// let width = 4.5;
+
+// console.log(getArea(length, width));
+// console.log(getPerimeter(length, width));
+
+let getArea = (length, width) => {
     let area;
     area = length * width;
     return area;
 }
 
-function getPerimeter(length, width) {
+let getPerimeter = (length, width) => {
     let perimeter;
     perimeter = 2 * (length + width);
     return perimeter;
